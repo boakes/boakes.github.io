@@ -5,14 +5,14 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom 40%;
+	background-attachment: fixed;
 }
 
-
-#project {
+.window {
 	width: 25%;
-	height: auto;	
+
 	margin: 25px 10px;
-	display: inline-block;
+
 	border: 2px solid transparent;
 	border-image-source: url("images/window.png");
 	border-image-slice: 27 27 27 27 fill;
@@ -21,6 +21,80 @@ body {
 	border-image-repeat: stretch stretch;
 }
 
+.closedwindow {
+	width: 25%;
+	height: 4vh;
+
+	margin: 25px 10px;
+
+	border:2px solid transparent;
+	border-image-source: url("images/closed.png");
+	border-image-slice: 20 27 27 27;
+	border-image-width: 14px 20px 0px 20px; 
+	border-image-outset: 0px 1px 1px 1px; 
+	border-image-repeat: stretch stretch;
+
+}
+
+
+#cardboard-01{
+	display:inline-block;
+}
+#cardboard-02{
+	display:inline-block;	
+}
+#clay{
+	display:inline-block;
+}
+#wire{
+	display:inline-block;
+}
+#wood{
+	display:inline-block;
+}
+
+#cardboard-01-closed{
+	display:none;
+}
+#cardboard-02-closed{
+	display:none;	
+}
+#clay-closed{
+	display:none;
+}
+#wire-closed{
+	display:none;
+}
+#wood-closed{
+	display:none;
+}
+
+
+#intro-01 {
+	font-family: 'VT323', monospace;
+
+	overflow-wrap: break-word;
+	display:inline-block;
+}
+#intro-02 {
+	font-family: 'VT323', monospace;
+
+	overflow-wrap: break-word;
+	display:inline-block;
+}
+
+#intro-01-closed {
+	display: none;
+}
+#intro-02-closed {
+	display: none;
+}
+
+
+
+
+
+
 #navbar {
 	list-style-type: none;
 	margin: 25px 10px;
@@ -28,19 +102,6 @@ body {
 	overflow: hidden;
 	background-color: #808080;
 
-}
-
-#intro {
-	font-family: 'VT323', monospace;
-	width: 25%;
-	height: 10%;
-	overflow-wrap: break-word;
-	border: 2px solid transparent;
-	border-image-source: url("images/window.png");
-	border-image-slice: 27 27 27 27 fill;
-	border-image-width: 20px 20px 20px 20px; 
-	border-image-outset: 14px 1px 1px 1px; 
-	
 }
 
 li {
@@ -62,3 +123,4 @@ li a:hover{
 h1 {
 	font-family: 'Roboto Mono', monospace;
 }
+
