@@ -1,5 +1,62 @@
-.css-selector {
+body {
 	font-family: 'Roboto Mono', monospace;
+	background-image: url(images/wallpape.png);
+	background-color: #bfb4f8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom 40%;
+}
+
+
+#project {
+	width: 25%;
+	height: auto;	
+	margin: 25px 10px;
+	display: inline-block;
+	border: 2px solid transparent;
+	border-image-source: url("images/window.png");
+	border-image-slice: 27 27 27 27 fill;
+	border-image-width: 20px 20px 20px 20px; 
+	border-image-outset: 14px 1px 1px 1px; 
+	border-image-repeat: stretch stretch;
+}
+
+#navbar {
+	list-style-type: none;
+	margin: 25px 10px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #808080;
+
+}
+
+#intro {
+	font-family: 'VT323', monospace;
+	width: 25%;
+	height: 40px;
+	overflow-wrap: break-word;
+	border: 2px solid transparent;
+	border-image-source: url("images/window.png");
+	border-image-slice: 27 27 27 27 fill;
+	border-image-width: 20px 20px 20px 20px; 
+	border-image-outset: 14px 1px 1px 1px; 
+	
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;	
+	color: white;
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #bfb4f8;
 }
 
 h1 {
