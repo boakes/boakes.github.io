@@ -33,7 +33,7 @@ body {
 #intro {
 	font-family: 'VT323', monospace;
 	width: 25%;
-	height: 40px;
+	height: 10%;
 	overflow-wrap: break-word;
 	border: 2px solid transparent;
 	border-image-source: url("images/window.png");
