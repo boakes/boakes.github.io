@@ -82,6 +82,12 @@ body {
 	overflow-wrap: break-word;
 	display:inline-block;
 }
+#intro-03 {
+	font-family: 'VT323', monospace;
+
+	overflow-wrap: break-word;
+	display:inline-block;
+}
 
 #intro-01-closed {
 	display: none;
@@ -89,7 +95,9 @@ body {
 #intro-02-closed {
 	display: none;
 }
-
+#intro-03-closed {
+	display: none;
+}
 
 
 
