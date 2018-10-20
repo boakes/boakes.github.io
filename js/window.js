@@ -11,11 +11,4 @@ for(i=0; i<open.length; ++i){
 		closed.id = tmp;
 	}
 
-	document.getElementById(open[i].id+"-closed").onclick = function(){
-		var tmp = this.id;
-		var closed = document.getElementById(this.id+"-closed");
-		
-		this.id = closed.id;
-		closed.id = tmp;
-	}
 }
