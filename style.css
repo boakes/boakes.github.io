@@ -53,7 +53,7 @@ body {
 	display:inline-block;
 }
 #wood{
-	
+	display:inline-block;
 }
 
 #cardboard-01-closed{
@@ -73,23 +73,23 @@ body {
 }
 
 #intro-01 {
-	visibility: visible;
+	display:inline-block;
 }
 #intro-02 {
-	visibility: visible;
+	display:inline-block;
 }
 #intro-03 {
-	visibility: visible;
+	display:inline-block;
 }
 
 #intro-01-closed {
-	visibility: hidden;
+	display:inline-block;
 }
 #intro-02-closed {
-	visibility: hidden;
+	display:inline-block;
 }
 #intro-03-closed {
-	visibility: hidden;
+	display:inline-block;
 }
 
 
