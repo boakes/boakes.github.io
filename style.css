@@ -32,7 +32,7 @@ body {
 	border-image-slice: 20 27 27 27;
 	border-image-width: 14px 20px 0px 20px; 
 	border-image-outset: 1px 1px 1px 1px; 
-	border-image-repeat: stretch stretch;
+	border-image-repeat: repeat;
 
 }
 
