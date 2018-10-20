@@ -18,7 +18,7 @@ body {
 	border-image-slice: 27 27 27 27 fill;
 	border-image-width: 20px 20px 20px 20px; 
 	border-image-outset: 14px 1px 1px 1px; 
-	border-image-repeat: stretch stretch;
+	border-image-repeat: stretch;
 }
 
 .closedwindow {
@@ -29,10 +29,10 @@ body {
 
 	border: 2px solid transparent;
 	border-image-source: url("images/closed.png");
-	border-image-slice: 20 27 27 27;
+	border-image-slice: 12 27 27 27;
 	border-image-width: 14px 20px 0px 20px; 
 	border-image-outset: 1px 1px 1px 1px; 
-	border-image-repeat: repeat;
+	border-image-repeat: stretch;
 
 }
 
