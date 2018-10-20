@@ -9,31 +9,33 @@ body {
 }
 
 .window {
+	font-family: 'VT323', monospace;
+	overflow-wrap: break-word;
+
 	width: 25%;
-
 	margin: 25px 10px;
-
 	border: 2px solid transparent;
 	border-image-source: url("images/window.png");
 	border-image-slice: 27 27 27 27 fill;
 	border-image-width: 20px 20px 20px 20px; 
 	border-image-outset: 14px 1px 1px 1px; 
 	border-image-repeat: stretch stretch;
+	display:inline-block;
 }
 
 .closedwindow {
 	width: 25%;
-	height: 4vh;
+	height: 1rem;
 
 	margin: 25px 10px;
 
 	border:2px solid transparent;
-	-webkit-border-image-source:url("images/closed.png");
 	border-image-source: url("images/closed.png");
 	border-image-slice: 20 27 27 27;
 	border-image-width: 14px 20px 0px 20px; 
 	border-image-outset: 1px 1px 1px 1px; 
 	border-image-repeat: stretch stretch;
+	display:inline-block;
 
 }
 
@@ -51,11 +53,11 @@ body {
 	display:inline-block;
 }
 #wood{
-	display:inline-block;
+	
 }
 
 #cardboard-01-closed{
-	display:none;
+	display: none;
 }
 #cardboard-02-closed{
 	display:none;	
@@ -70,34 +72,24 @@ body {
 	display:none;
 }
 
-
 #intro-01 {
-	font-family: 'VT323', monospace;
-
-	overflow-wrap: break-word;
-	display:inline-block;
+	visibility: visible;
 }
 #intro-02 {
-	font-family: 'VT323', monospace;
-
-	overflow-wrap: break-word;
-	display:inline-block;
+	visibility: visible;
 }
 #intro-03 {
-	font-family: 'VT323', monospace;
-
-	overflow-wrap: break-word;
-	display:inline-block;
+	visibility: visible;
 }
 
 #intro-01-closed {
-	display: none;
+	visibility: hidden;
 }
 #intro-02-closed {
-	display: none;
+	visibility: hidden;
 }
 #intro-03-closed {
-	display: none;
+	visibility: hidden;
 }
 
 
