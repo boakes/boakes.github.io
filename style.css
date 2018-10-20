@@ -27,8 +27,8 @@ body {
 
 	margin: 25px 10px;
 
-	border:2px solid black;
-	border-image-source: url("images/window.png");
+	border: 2px solid transparent;
+	border-image-source: url("images/window-c.png");
 	border-image-slice: 20 27 27 27;
 	border-image-width: 14px 20px 0px 20px; 
 	border-image-outset: 1px 1px 1px 1px; 
@@ -80,13 +80,13 @@ body {
 }
 
 #intro-01-closed {
-	display:inline-block;
+	display:none;
 }
 #intro-02-closed {
-	display:inline-block;
+	display:none;
 }
 #intro-03-closed {
-	display:inline-block;
+	display:none;
 }
 
 
