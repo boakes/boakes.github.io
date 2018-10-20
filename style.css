@@ -29,6 +29,7 @@ body {
 
 	border: 2px solid;
 	border-color: white;
+
 	border-image-source: url("images/closed.png");
 	border-image-slice: 20 27 27 27;
 	border-image-width: 14px 20px 0px 20px; 
@@ -87,6 +88,26 @@ body {
 	display:none;
 }
 #intro-03-closed {
+	display:none;
+}
+
+#about-me-text{
+	display:inline-block;
+}
+#about-me-img-01{
+	display:inline-block;
+}
+#about-me-img-02{
+	display:inline-block;
+}
+
+#about-me-text-closed{
+	display:none;
+}
+#about-me-img-01-closed{
+	display:none;
+}
+#about-me-img-02-closed{
 	display:none;
 }
 
