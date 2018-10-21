@@ -80,6 +80,10 @@ body {
 #intro-03 {
 	display:inline-block;
 }
+#canvas-js {
+	display:inline-block;
+}
+
 
 #intro-01-closed {
 	display:none;
@@ -88,6 +92,9 @@ body {
 	display:none;
 }
 #intro-03-closed {
+	display:none;
+}
+#canvas-js-closed{
 	display:none;
 }
 
