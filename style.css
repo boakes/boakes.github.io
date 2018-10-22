@@ -81,7 +81,10 @@ body {
 #intro-03 {
 	display:inline-block;
 }
-#canvas-js {
+#canvas-mobius {
+	display:inline-block;
+}
+#canvas-torus {
 	display:inline-block;
 }
 
@@ -95,7 +98,10 @@ body {
 #intro-03-closed {
 	display:none;
 }
-#canvas-js-closed{
+#canvas-mobius-closed{
+	display:none;
+}
+#canvas-torus-closed{
 	display:none;
 }
 
