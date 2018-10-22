@@ -82,6 +82,9 @@ h1 {
 #wood{
 	display:inline-block;
 }
+#art-text {
+	display:inline-block;	
+}
 
 #cardboard-01-closed{
 	display: none;
@@ -97,6 +100,9 @@ h1 {
 }
 #wood-closed{
 	display:none;
+}
+#art-text-closed {
+	display:none;	
 }
 
 #intro-01 {
