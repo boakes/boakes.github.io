@@ -86,6 +86,7 @@ h1 {
 	display:inline-block;	
 }
 
+
 #cardboard-01-closed{
 	display: none;
 }
@@ -160,6 +161,20 @@ h1 {
 
 
 
+#cardboard-text {
+	display:inline-block;	
+}
+#cardboard-closed {
+	display:none;	
+}
 
+#froggy-text {
+	display:inline-block;	
+}
+#froggy-closed {
+	display:none;	
+}
 
-
+#neon {
+	display:inline-block;	
+}
