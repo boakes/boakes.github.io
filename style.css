@@ -161,17 +161,31 @@ h1 {
 
 
 
-#cardboard-text {
+#cardboard {
 	display:inline-block;	
 }
 #cardboard-closed {
 	display:none;	
 }
 
-#froggy-text {
+#froggy {
 	display:inline-block;	
 }
 #froggy-closed {
+	display:none;	
+}
+
+#eyes {
+	display:inline-block;	
+}
+#eyes-closed {
+	display:none;	
+}
+
+#pizza {
+	display:inline-block;	
+}
+#pizza-closed {
 	display:none;	
 }
 
